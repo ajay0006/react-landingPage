@@ -1,15 +1,15 @@
 import componentsImage from './assets/images/components.png';
 import stateImage from './assets/images/state.png';
 import eventsImage from './assets/images/events.png';
-import Card from "./Components/Card";
-import Header from "./Components/Header";
+import Card from "./components/Card";
+import Header from "./components/Header";
 
 const concepts = [
     {
-        title: 'Components',
+        title: 'components',
         image: componentsImage,
         description:
-            'Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Components can receive data via props, and they can render dynamic output using JSX.',
+            'components let you split the UI into independent, reusable pieces, and think about each piece in isolation. components can receive data via props, and they can render dynamic output using JSX.',
     },
     {
         title: 'State',
